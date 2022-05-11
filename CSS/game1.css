@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color:rgb(172, 148, 11);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navv a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navv a:hover{
+    color:darkgray ;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(img/OIP2.jpg);
+    
+}
+.pic{
+    padding-left: 600px;
+}
+.main h1{
+    font-size: 2em;
+    font-weight: 700;
+    position: absolute;
+    top: 300px;
+    left: 14%;
+    color: white;
+    border-bottom: solid rgb(172, 148, 11);
+}
+.main h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    position: absolute;
+    top: 350px;
+    left: 14%;
+    margin-bottom: 30px;
+    color: white;
+    
+}
+.downgame{
+    color: white;
+    background-color: rgb(172, 148, 11);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: absolute;
+    top: 450px;
+    left: 14%;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transform: 0.9 ease;
+}
+.main2{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 600px;
+    
+}
+.downgame:hover{
+    background-color: darkkhaki;
+    transform: scale(1.1);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-spacing: 0px;
+}
+table td{
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+.main3{
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 1200px;
+    position: relative;
+}
+.trailer{
+    display: block;
+    margin-left: 450px;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(4, 4, 4);
+    width: 20%;
+    border-bottom: solid rgb(172, 148, 11);
+}
+.videoo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+.screen{
+    display: block;
+    margin-left: 450px;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(4, 4, 4);
+    width: 20%;
+    border-bottom: solid rgb(172, 148, 11);
+}
+.photo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px
+}
+.main4{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+span
+{
+    color: rgb(172, 148, 11);
+}
+#toTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: rgb(17, 133, 133);
+    font-size: 60px;
+    transition: 0.6s;
+    transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+    display: none;
+    z-index: 1;
+}
+#toTop:hover{
+    font-size: 65px;
+    bottom: 40px;
+}
